@@ -16,6 +16,11 @@ body{
     border-radius: 10px;
 }
 
+.img{
+    width: 90px;
+    height: auto;
+}
+
   @media screen and (max-width: 768px) {
      .contenedor{
         grid-template-columns: repeat(3,4fr);
