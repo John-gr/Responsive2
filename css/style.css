@@ -6,7 +6,7 @@ body{
 
 .contenedor{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(4,3fr);
     gap: 20px;
 }
 
@@ -17,8 +17,12 @@ body{
 }
 
   @media screen and (max-width: 768px) {
+     .contenedor{
+        grid-template-columns: repeat(3,4fr);
+    }
     .caja{
         background-color: blue;
+        font-size: large;
     }
 }
 
@@ -28,5 +32,6 @@ body{
     }
     .caja{
         background-color: aqua;
+        font-size: large;
     }
 }
